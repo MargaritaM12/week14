@@ -1,0 +1,30 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Галерея</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=windows-1251">
+        <style></style>
+    </head>
+    <body>
+        <h1>
+            Галерея
+        </h1>
+        <div class="gallery">
+            <img src="assets/2.jpg" height="400px" width="400px" alt="кот" id="cat2"></li>
+    </div>
+    <button class="prev" id="cat1" onclick="changeMe()">Назад</button>
+    <button class="next" id="cat3" onclick="changeMeSecond()">Вперед</button>
+    <script>
+        function changeMe() {
+            let cat2 = document.getElementById('cat2');
+            cat2.src = "assets/1.jpg";
+        }
+        function changeMeSecond() {
+            let cat2 = document.getElementById('cat2');
+            cat2.src = "assets/3.jpg";
+        }
+    </script>
+</script>
+</body>
+</html>
